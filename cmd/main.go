@@ -2,8 +2,8 @@ package main
 
 import (
 	_ "github.com/lib/pq"
-	wire_excel "github.com/ryvasa/go-super-farmer/cmd/mail/pkg/wire"
-	"github.com/ryvasa/go-super-farmer/pkg/logrus"
+	"github.com/ryvasa/go-super-farmer-mail-service/pkg/logrus"
+	wire_excel "github.com/ryvasa/go-super-farmer-mail-service/pkg/wire"
 )
 
 func main() {

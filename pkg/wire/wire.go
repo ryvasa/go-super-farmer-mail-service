@@ -5,11 +5,11 @@ package wire_excel
 
 import (
 	"github.com/google/wire"
-	"github.com/ryvasa/go-super-farmer/cmd/mail/app"
-	"github.com/ryvasa/go-super-farmer/pkg/env"
-	"github.com/ryvasa/go-super-farmer/pkg/messages"
-	mail_handler "github.com/ryvasa/go-super-farmer/service_mail/handler"
-	mail_usecase "github.com/ryvasa/go-super-farmer/service_mail/usecase"
+	"github.com/ryvasa/go-super-farmer-mail-service/cmd/app"
+	mail_handler "github.com/ryvasa/go-super-farmer-mail-service/internal/handler"
+	mail_usecase "github.com/ryvasa/go-super-farmer-mail-service/internal/usecase"
+	"github.com/ryvasa/go-super-farmer-mail-service/pkg/env"
+	"github.com/ryvasa/go-super-farmer-mail-service/pkg/messages"
 )
 
 var allSet = wire.NewSet(

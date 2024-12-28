@@ -1,10 +1,10 @@
 package app
 
 import (
-	"github.com/ryvasa/go-super-farmer/pkg/env"
-	"github.com/ryvasa/go-super-farmer/pkg/logrus"
-	"github.com/ryvasa/go-super-farmer/pkg/messages"
-	mail_handler "github.com/ryvasa/go-super-farmer/service_mail/handler"
+	mail_handler "github.com/ryvasa/go-super-farmer-mail-service/internal/handler"
+	"github.com/ryvasa/go-super-farmer-mail-service/pkg/env"
+	"github.com/ryvasa/go-super-farmer-mail-service/pkg/logrus"
+	"github.com/ryvasa/go-super-farmer-mail-service/pkg/messages"
 )
 
 type MailApp struct {

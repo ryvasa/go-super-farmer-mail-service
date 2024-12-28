@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/ryvasa/go-super-farmer/pkg/env"
-	"github.com/ryvasa/go-super-farmer/pkg/logrus"
+	"github.com/ryvasa/go-super-farmer-mail-service/pkg/env"
+	"github.com/ryvasa/go-super-farmer-mail-service/pkg/logrus"
 	"gopkg.in/gomail.v2"
 )
 

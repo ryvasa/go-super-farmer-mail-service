@@ -3,9 +3,9 @@ package mail_handler
 import (
 	"encoding/json"
 
-	"github.com/ryvasa/go-super-farmer/pkg/logrus"
-	"github.com/ryvasa/go-super-farmer/pkg/messages"
-	mail_usecase "github.com/ryvasa/go-super-farmer/service_mail/usecase"
+	mail_usecase "github.com/ryvasa/go-super-farmer-mail-service/internal/usecase"
+	"github.com/ryvasa/go-super-farmer-mail-service/pkg/logrus"
+	"github.com/ryvasa/go-super-farmer-mail-service/pkg/messages"
 )
 
 type MailHandler interface {
