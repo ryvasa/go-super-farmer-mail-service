@@ -9,7 +9,6 @@ import (
 func main() {
 	app, err := wire_excel.InitializeMailApp()
 	defer app.RabbitMQ.Close()
-
 	if err != nil {
 		logrus.Log.Fatalf("failed to initialize app: %v", err)
 	}

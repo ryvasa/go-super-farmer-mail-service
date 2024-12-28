@@ -22,6 +22,7 @@ func NewApp(
 	if err != nil {
 		logrus.Log.Fatalf("failed to initiate consumer handler: %v", err)
 	}
+
 	return &MailApp{
 		Env:      env,
 		RabbitMQ: rabbitMQ,

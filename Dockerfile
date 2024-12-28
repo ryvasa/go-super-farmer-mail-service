@@ -17,15 +17,13 @@ FROM base AS development
 # Install air for hot reloading
 RUN go install github.com/air-verse/air@latest
 
-WORKDIR /app/cmd/mail
-
 # Use air for development
 CMD ["air", "-c", ".air.toml"]
 
 # Production stage
 FROM base AS production
 
-RUN go build -o mail_app cmd/mail/main.go
+RUN go build -o mail_app cmd/main.go
 
 # Runner stage
 FROM alpine:latest AS runner
