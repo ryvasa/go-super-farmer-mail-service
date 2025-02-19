@@ -26,6 +26,5 @@ func NewApp(
 	return &MailApp{
 		Env:      env,
 		RabbitMQ: rabbitMQ,
-		// Handler:  handler,
 	}
 }
