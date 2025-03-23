@@ -2,8 +2,8 @@
 
 ## Note
 
-This is a simple service to email of the super farmer.
-Please read demain service for more information.
+This is a simple service to email the super farmer.
+Please read the main service for more information.
 
 ## Development
 
